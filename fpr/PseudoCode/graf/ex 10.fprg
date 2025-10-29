@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex 10"/>
+        <attribute name="authors" value="a10653"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-30 04:51:07 "/>
+        <attribute name="created" value="YTEwNjUzO1BDLUxBQjEtMTQ7MjAyNC0wOS0zMDsiMDQ6Mzg6NTEgIjsyMTQy"/>
+        <attribute name="edited" value="YTEwNjUzO1BDLUxBQjEtMTQ7MjAyNC0wOS0zMDsiMDQ6NTE6MDcgIjsxOzIyNDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d, n" type="Integer" array="False" size=""/>
+            <output expression="&quot;Vamos realizar um expres&#227;o de (a+b+c)*d, ent&#227;o introduz estes valores:&quot;" newline="True"/>
+            <output expression="&quot;a &#233;&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;b &#233;&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;c &#233;&quot;" newline="True"/>
+            <input variable="c"/>
+            <output expression="&quot;d &#233;&quot;" newline="True"/>
+            <input variable="d"/>
+            <assign variable="n" expression="(a+b+c)*d"/>
+            <output expression="&quot;O resultado da express&#227;o (&quot; &amp;a&amp; &quot;+&quot; &amp;b&amp; &quot;+&quot; &amp;c&amp; &quot;)*&quot; &amp;d&amp; &quot; &#233; &quot; &amp;n" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

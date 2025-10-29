@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="5"/>
+        <attribute name="authors" value="a10653"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-30 05:21:59 "/>
+        <attribute name="created" value="YTEwNjUzO1BDLUxBQjItMDM7MjAyNC0wOS0yNzsiMDQ6MDY6NDAgIjsyMTQw"/>
+        <attribute name="edited" value="YTEwNjUzO1BDLUxBQjItMDM7MjAyNC0wOS0yNzsiMDQ6MDY6NDQgIjsxO2ExMDY1MztQQy1MQUIyLTAzOzIwMjQtMDktMjc7IjA0OjAzOjUyICI7ZXggNC5mcHJnOzUyOTI="/>
+        <attribute name="edited" value="YTEwNjUzO1BDLUxBQjItMDM7MjAyNC0wOS0yNzsiMDQ6MDg6NTAgIjsxOzIyNTE="/>
+        <attribute name="edited" value="YTEwNjUzO1BDLUxBQjEtMTQ7MjAyNC0wOS0zMDsiMDU6MjE6NTkgIjsxOzIyNTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, area" type="Real" array="False" size=""/>
+            <output expression="&quot;Vamos calcular a &#225;rea do paralelogramo. Introduz os 2 valores diferentes dos lados em metros:&quot;" newline="True"/>
+            <input variable="n1"/>
+            <input variable="n2"/>
+            <assign variable="area" expression="n1*n2"/>
+            <if expression="n1==n2">
+                <then>
+                    <output expression="&quot;A &#225;rea do quadrado &#233; &quot; &amp;area&amp; &quot; m2&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;A &#225;rea do ret&#226;ngulo &#233; &quot; &amp;area&amp; &quot; m2&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex 4"/>
+        <attribute name="authors" value="a10653"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-27 04:06:21 "/>
+        <attribute name="created" value="YTEwNjUzO1BDLUxBQjItMDM7MjAyNC0wOS0yNzsiMDQ6MDM6NTIgIjsyMTQw"/>
+        <attribute name="edited" value="YTEwNjUzO1BDLUxBQjItMDM7MjAyNC0wOS0yNzsiMDQ6MDY6MjEgIjsxOzIyNDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, area" type="Real" array="False" size=""/>
+            <output expression="&quot;Vamos calcular a &#225;rea do ret&#226;ngulo. Introduz os 2 valores diferentes dos lados:&quot;" newline="True"/>
+            <input variable="n1"/>
+            <input variable="n2"/>
+            <assign variable="area" expression="n1*n2"/>
+            <output expression="&quot;A &#225;rea do ret&#226;ngulo &#233; &quot; &amp;area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

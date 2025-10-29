@@ -1,0 +1,21 @@
+2 teras - 2*1024 2048 gigas
+
+500 gigas - 500*1024*1024*1024 bytes
+
+356 megas - 356*1024 kilos
+
+800 kilos - 800*1024*8 bits
+
+43 petas - 43*1024*1024 gigas
+
+2 petas - 2048 teras
+
+100 bytes - 800 bits
+
+1024 megas - 1 giga
+
+4096 megas - 4 gigas
+
+2000000 bytes - 2000000/1024/1024 megas
+
+105073733632 bytes - 105073733632/1024/1024/1024

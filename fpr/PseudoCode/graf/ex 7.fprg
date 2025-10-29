@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex 7"/>
+        <attribute name="authors" value="a10653"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-27 04:14:48 "/>
+        <attribute name="created" value="YTEwNjUzO1BDLUxBQjItMDM7MjAyNC0wOS0yNzsiMDQ6MTA6NDggIjsyMTQz"/>
+        <attribute name="edited" value="YTEwNjUzO1BDLUxBQjItMDM7MjAyNC0wOS0yNzsiMDQ6MTQ6NDggIjsxOzIyNTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, soma" type="Real" array="False" size=""/>
+            <assign variable="soma" expression="0"/>
+            <output expression="&quot;Vamos somar os n&#250;meros. Quando queres acabar a soma, introduz 0&quot;" newline="True"/>
+            <do expression="n&gt;0">
+                <input variable="n"/>
+                <assign variable="soma" expression="soma+n"/>
+            </do>
+            <output expression="&quot;A soma dos n&#250;meros &#233; &quot; &amp;soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

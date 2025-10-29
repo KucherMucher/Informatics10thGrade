@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex 3"/>
+        <attribute name="authors" value="a10653"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-27 04:03:46 "/>
+        <attribute name="created" value="YTEwNjUzO1BDLUxBQjItMDM7MjAyNC0wOS0yNzsiMDQ6MDI6MjIgIjsyMTM2"/>
+        <attribute name="edited" value="YTEwNjUzO1BDLUxBQjItMDM7MjAyNC0wOS0yNzsiMDQ6MDM6NDYgIjsxOzIyNTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1" type="Integer" array="False" size=""/>
+            <output expression="&quot;Introduz um n&#250;mero para lhe dobrar&quot;" newline="True"/>
+            <input variable="n1"/>
+            <assign variable="n1" expression="n1*2"/>
+            <output expression="n1" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

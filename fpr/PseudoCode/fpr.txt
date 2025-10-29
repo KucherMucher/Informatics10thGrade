@@ -1,0 +1,20 @@
+A  B  A^B
+V  V   V
+V  F   F
+F  V   F
+F  F   F
+
+                  menorAltura>altura && altura!=0
+
+A  B  AVB
+V  V   V
+V  F   V
+F  V   V
+F  F   F
+
+
+operadores lógicos
+
+E - ^ - &&
+
+OU - V - | / ||

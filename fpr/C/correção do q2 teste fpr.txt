@@ -1,0 +1,40 @@
+codigo do pastado
+
+#include <stdio.h>
+int main(){
+    int n;
+    printf("Intorduza um número inteiro: ");
+    scanf("%d", &n);
+    if(n==0){
+        printf("O número é zero.");
+        return 0; //sem isso a programa ainda vai apresentar que o zero é par
+      NUNCA BLYAT FAZ ISSO BURRO DE MERDA
+    }
+    if(n%2==0){
+        printf("O número %d é par.", n);
+    }
+    else{
+        printf("O número %d é ímpar.", n);
+    }
+    return 0;
+}
+
+
+codigo novo
+
+#include <stdio.h>
+int main(){
+    int n; //faz uma role de numero inteiro (;-;)
+    printf("Introduza um número inteiro: ");
+    scanf("%d", &n);
+    if(n==0){
+        printf("O número é zero.");
+    }
+    else if(n%2==0){
+        printf("O número %d é par.", n);
+    }
+    else{
+        printf("O número %d é ímpar.", n);
+    }
+    return 0;
+}

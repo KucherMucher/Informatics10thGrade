@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex 1"/>
+        <attribute name="authors" value="a10653"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-27 03:58:58 "/>
+        <attribute name="created" value="YTEwNjUzO1BDLUxBQjItMDM7MjAyNC0wOS0yNzsiMDM6NTQ6NTQgIjsyMTQ3"/>
+        <attribute name="edited" value="YTEwNjUzO1BDLUxBQjItMDM7MjAyNC0wOS0yNzsiMDM6NTg6NTggIjsxOzIyNjM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2" type="Real" array="False" size=""/>
+            <output expression="&quot;Intruduz 2 n&#250;meros&quot;" newline="True"/>
+            <input variable="n1"/>
+            <input variable="n2"/>
+            <if expression="n1&lt;n2">
+                <then>
+                    <output expression="n1&amp; &quot; &#233; menor que &quot; &amp;n2" newline="True"/>
+                </then>
+                <else>
+                    <output expression="n1&amp; &quot; &#233; maior que &quot; &amp;n2" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

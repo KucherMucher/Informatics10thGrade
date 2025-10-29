@@ -1,0 +1,11 @@
+level=1
+vida=1
+defense=5
+classdamage=1
+intelect=1
+add_defense=0
+add_classdamage=0
+add_intelect=0
+move=0.000000
+add_move=0.000000
+0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/

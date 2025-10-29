@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex 8"/>
+        <attribute name="authors" value="a10653"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-04 03:30:34 "/>
+        <attribute name="created" value="YTEwNjUzO1BDLUxBQjEtMTQ7MjAyNC0wOS0zMDsiMDM6NTM6MjAgIjsyMTM0"/>
+        <attribute name="edited" value="YTEwNjUzO1BDLUxBQjEtMTQ7MjAyNC0wOS0zMDsiMDU6MjA6MTggIjsyOzIyNDY="/>
+        <attribute name="edited" value="YTEwNjUzO1BDLUxBQjItMDM7MjAyNC0xMC0wNDsiMDM6MzA6MzQgIjsxOzIyMzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, maior, menor, na, soma" type="Integer" array="False" size=""/>
+            <comment text="na &#233; n&#250;mero de alturas"/>
+            <declare name="media" type="Real" array="False" size=""/>
+            <assign variable="maior" expression="0"/>
+            <assign variable="menor" expression="1000"/>
+            <assign variable="soma" expression="0"/>
+            <assign variable="na" expression="0"/>
+            <output expression="&quot;Intorduz as alturas das colegas da tua turma, em cm. Enquanto queres terminar a introdu&#231;&#227;o, introduz 0.&quot;" newline="True"/>
+            <input variable="n"/>
+            <while expression="n==0">
+                <output expression="&quot;O primeiro valor n&#227;o pode ser 0. Introduz o valor outravez&quot;" newline="True"/>
+                <input variable="n"/>
+            </while>
+            <while expression="n!=0">
+                <assign variable="na" expression="na+1"/>
+                <if expression="n&gt;maior">
+                    <then>
+                        <assign variable="maior" expression="n"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="n&lt;menor">
+                    <then>
+                        <if expression="n!=0">
+                            <then>
+                                <assign variable="menor" expression="n"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="soma" expression="n+soma"/>
+                <input variable="n"/>
+            </while>
+            <if expression="n==0">
+                <then>
+                    <assign variable="media" expression="(n+soma)/na"/>
+                    <output expression="&quot;A m&#233;dia das alturas &#233; &quot; &amp;media&amp; &quot; cm, a pessoa mais alta tem &quot; &amp;maior&amp; &quot; cm e a menor tem &quot; &amp;menor&amp; &quot; cm&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,26 @@
+int - %d
+float - %f; %.2f
+char - %c
+bool 
+
+% (dividir em partes) - ex: 5 % 2 = 2, 2 e resto 1
+
+&&
+||
+!
+
+printf
+scanf - ex: scanf("%d", &variavel)
+
+if (condição 1){}
+else if (condição 2){} - se if for falso
+else{} - se ambas foram falsas
+
+ex: if (variavel % 2 == 0){
+          printf("%d gibberish", variavel)
+
+while(condição){} - enquanto isso é, faz aquilo (check condition, do, repeat)
+
+do{}while(condição); - faz aquilo enquanto isso é (do, check condition, repeat)
+
+variavel++ => variavel = variavel + 1

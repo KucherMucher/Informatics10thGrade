@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex 6"/>
+        <attribute name="authors" value="a10653"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-27 04:10:45 "/>
+        <attribute name="created" value="YTEwNjUzO1BDLUxBQjItMDM7MjAyNC0wOS0yNzsiMDQ6MDg6NTMgIjsyMTQ2"/>
+        <attribute name="edited" value="YTEwNjUzO1BDLUxBQjItMDM7MjAyNC0wOS0yNzsiMDQ6MTA6NDUgIjsxOzIyNDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Real" array="False" size=""/>
+            <output expression="&quot;Introduz um n&#250;mero:&quot;" newline="True"/>
+            <input variable="n"/>
+            <if expression="n&gt;0">
+                <then>
+                    <output expression="&quot;N&#250;mero &#233; superior a zero&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;N&#250;mero &#233; inferior ou igual a zero&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
